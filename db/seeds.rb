@@ -1,6 +1,8 @@
-Actor.create(first_name: "Nathan", last_name: "Fillion", known_for: "Firefly")
+# Actor.create(first_name: "Nathan", last_name: "Fillion", known_for: "Firefly")
+# Actor.create({ first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock" })
+# Actor.create({ first_name: "Emma", last_name: "Watson", known_for: "Harry Potter" })
+# Actor.create({ first_name: "Matt", last_name: "Damon", known_for: "Good Will Hunting" })
 
-Actor.create({ first_name: "Benedict", last_name: "Cumberbatch", known_for: "Sherlock" })
-
-Actor.create({ first_name: "Emma", last_name: "Watson", known_for: "Harry Potter" })
-Actor.create({ first_name: "Matt", last_name: "Damon", known_for: "Good Will Hunting" })
+Movie.create({ title: "Casablanca", year: 1942, plot: "Rick Blaine (Humphrey Bogart), who owns a nightclub in Casablanca, discovers his old flame Ilsa (Ingrid Bergman) is in town with her husband, Victor Laszlo (Paul Henreid). Laszlo is a famed rebel, and with Germans on his tail, Ilsa knows Rick can help them get out of the country." })
+Movie.create({ title: "Schindler's List", year: 1993, plot: "Businessman Oskar Schindler (Liam Neeson) arrives in Krakow in 1939, ready to make his fortune from World War II, which has just started. After joining the Nazi party primarily for political expediency, he staffs his factory with Jewish workers for similarly pragmatic reasons. When the SS begins exterminating Jews in the Krakow ghetto, Schindler arranges to have his workers protected to keep his factory in operation, but soon realizes that in so doing, he is also saving innocent lives." })
+Movie.create({ title: "The Matrix", year: 1999, plot: "Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life." })
