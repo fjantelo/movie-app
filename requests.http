@@ -25,10 +25,33 @@ Content-Type: application/json
 ### Movie destroy
 DELETE http://localhost:3000/movies/8.json
 
-###
-GET http://localhost:3000/actorid.json
+
+
+
+
+### Actor index
+GET http://localhost:3000/actors.json
+
+### Actor show
+GET http://localhost:3000/actors/1.json
+
+### Actor create
+POST http://localhost:3000/actors.json
 Content-Type: application/json
 
 {
-  "id": 2
+  "first_name": "Meryl",
+  "last_name": "Streep",
+  "known_for": "Sophie's Choice"
 }
+
+### Actor update
+PATCH http://localhost:3000/actors/5.json
+Content-Type: application/json
+
+{
+  "known_for": "The Devil Wear Prada"
+}
+
+### Actor destroy
+DELETE http://localhost:3000/actors/5.json
