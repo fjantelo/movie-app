@@ -8,4 +8,9 @@ class ActorsController < ApplicationController
     actor = Actor.find_by(id: params["q"])
     render json: actor.as_json
   end
+
+  def bodyparams
+    actor = Actor.find_by(id: params["id"])
+    render json: actor.as_json
+  end
 end
