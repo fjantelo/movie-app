@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   post "/actors" => "actors#create"
   patch "/actors/:id" => "actors#update"
   delete "/actors/:id" => "actors#destroy"
+
+  post "/users" => "users#create"
 end

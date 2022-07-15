@@ -55,3 +55,14 @@ Content-Type: application/json
 
 ### Actor destroy
 DELETE http://localhost:3000/actors/5.json
+
+### Users create (signup)
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Joe",
+  "email": "joe@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
